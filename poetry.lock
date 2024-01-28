@@ -137,6 +137,17 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.1"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "werkzeug"
 version = "3.0.1"
 description = "The comprehensive WSGI web application library."
@@ -153,7 +164,7 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "96db167ba485209ea38e2b914d8d15b1f52a7f2fd4cf46b9d2b4b62634416b6d"
+content-hash = "637083d4256f3a6052b24fa5b6ec6ecc62d24dfe5de782240009a6e7a59559ae"
 
 [metadata.files]
 blinker = []
@@ -169,4 +180,5 @@ mccabe = []
 packaging = []
 pycodestyle = []
 pyflakes = []
+python-dotenv = []
 werkzeug = []
